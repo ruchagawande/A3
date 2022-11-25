@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #i{
+            display:inline-block;
+            height: 80px;
+            width: 80px;
+            margin-left: 30px;
+            border-radius: 50%;
+            margin-top: 10px;
+        }
+        h1{
+            text-align: center;
+        }
+        #box{
+            height: 700px;
+            width: 400px;
+            border: 1px solid;
+            margin: 0 auto;
+            background-color: aqua;
+            box-shadow: 5px 10px 10px;
+            border-radius: 25px;
+            /* background-image: url(./pexels-beqa-tefnadze-803290.jpg); */
+        }
+        #box1{
+            height: 200px;
+            width: 295px;
+            border: 1px brown;
+            display: inline;
+        }
+        button{
+            margin: 0 auto;
+            justify-content: center;
+            text-align: center;
+            display: flex;
+            border-radius: 50px;
+            box-shadow: 5px 5px rgb(104, 74, 104);
+            background-color: white;
+            padding: 10px 5px;
+        }
+        /* img{
+            height: 200px;
+            width: 200px;
+        } */
+    </style>
+</head>
+<body>
+    <div id="box">
+        <!-- <img src="./pexels-beqa-tefnadze-803290.jpg" alt=""> -->
+        <div id="box1">
+        <div><img src="./pexels-beqa-tefnadze-803290.jpg" alt="" id="i"></div>
+        <h1>Pizza form</h1>
+        <fieldset><legend>Personal Info</legend>
+            <br>
+            First Name:<input type="name">
+            <br><br>
+            Last Name:<input type="text" name="" id="">
+            <br><br>
+            phone:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="" id="">
+        </fieldset>
+        </div>
+
+        <div id="box2"><br>
+        <fieldset><legend>Pizza</legend>
+        Size:  <br>
+           <input type="radio">Small <br>
+           <input type="radio">Medium  <br>
+           <input type="radio">Large  
+         <br><br><br>
+         Toppings(check all the apply)<br>
+         <input type="checkbox">Extra cheese <input type="checkbox">Pepperroni <input type="checkbox">Sausage<br>
+         <br>
+         <input type="checkbox">Mashrooms <input type="checkbox">Black Olives <input type="checkbox">Green Papers<br>
+         <input type="checkbox">Tomatos <input type="checkbox">Onions <input type="checkbox">Anchovies<br>
+         
+        </fieldset>
+          </div>
+        <br><br>
+        <button>Enter my information</button>
+    </div>
+    
+</body>
+</html>
